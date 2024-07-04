@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "1b215d3b89ba2741",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3f76aa5f03eda8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29780af170c847ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NotesFif/Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "450a94584afb2908",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3b54cb6f05f14cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2907d72fdfed65d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a45aaf19862abc6e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f52daf745de4c4c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "bd96a7a3b9d609cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e19bd0fa79bc241",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bfabade58c24fa8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NotesFif/Classes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "10e33aaa35b46552",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NotesFif/Classes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "74dd33528366ca00",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "71a9a838a9357abd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NotesFif/Classes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "29780af170c847ed",
+  "lastOpenFiles": [
+    "webserv.excalidraw",
+    "tuto_FRA.md",
+    "NotesFif/Classes.md",
+    "NotesFif",
+    "webServSubject.pdf",
+    "tuto_ENG.md",
+    "Recap GPT.md"
+  ]
+}

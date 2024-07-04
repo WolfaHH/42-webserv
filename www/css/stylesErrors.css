@@ -1,0 +1,100 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url('backgrounderrors.jpg') no-repeat center center fixed;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjusted for space distribution */
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home-link, .logo-link {
+    padding: 5px 10px;
+}
+
+.home-link a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.home-link a:hover, .home-link a:active {
+    color: #007BFF;
+}
+
+.logo-link img {
+    height: 50px; /* Adjust size as needed */
+    width: 50px;
+    border-radius: 50%; /* Creates the circle shape */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #007BFF;
+}
+
+section {
+    padding: 10px;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Styling for the container div */
+.container ul {
+    list-style-type: none; /* Removes default list bullets */
+    padding: 0;
+}
+
+.container li {
+    margin: 10px 0; /* Adds vertical space between list items */
+}
+
+/* Styling for the links */
+.container li a {
+    text-decoration: none;
+    color: #007BFF;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container li a:hover, .container li a:active {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.shining-text {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f20f35, 0 0 40px #ff0037, 0 0 50px #ff0019, 0 0 60px #007BFF, 0 0 70px #007BFF;
+}

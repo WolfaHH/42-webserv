@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Upload Form</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="home-link">
+                <a href="/">HOME</a>
+            </div>
+            <nav>
+                <a href="../get/">GET</a>
+                <a href="../post/">POST</a>
+                <a href="../delete/">DELETE</a>
+                <a href="../files/">DIRECTORY LISTING</a>
+            </nav>
+            <div class="logo-link">
+                <a href="../about/">
+                    <img src="../files/owllogo.jpg" alt="Logo">
+                </a>
+            </div>
+        </header>
+        <section class="container">
+            <h1>Welcome to our POST, bro</h1>
+            <ul>
+                <form action="/wrongMethod" method="POST" enctype="multipart/form-data">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname"><br><br>
+            
+                    <label for="lastname">Surname:</label>
+                    <input type="text" id="lastname" name="lastname"><br><br>
+            
+                    <label for="image">Upload an image:   </label>
+                    <input type="file" id="image" name="image"><br><br>
+            
+                    <input type="submit" value="Submit"><br><br>
+                </form>
+            </ul>
+        </section>
+    </body>
+</html>
